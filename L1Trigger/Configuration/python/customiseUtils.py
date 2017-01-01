@@ -76,7 +76,7 @@ def L1TGlobalDigisSummary(process):
 def L1TGlobalMenuXML(process):
     process.load('L1Trigger.L1TGlobal.StableParameters_cff')
     process.load('L1Trigger.L1TGlobal.TriggerMenu_cff')
-    process.TriggerMenu.L1TriggerMenuFile = cms.string('L1Menu_Collisions2016_v10_m2.xml')
+    process.TriggerMenu.L1TriggerMenuFile = cms.string('myMenu_1p6_1p8_OS_0t8GeV.xml')
     return process
 
 def L1TGlobalSimDigisSummary(process):
